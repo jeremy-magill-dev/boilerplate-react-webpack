@@ -1,8 +1,14 @@
 import React from 'react'
 
+import Card from './Card'
+import Cardlist from './Cardlist'
+
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <>
+      <h1>We back at it nerds!</h1>
+      <Cardlist />
+    </>
   )
 }
 
